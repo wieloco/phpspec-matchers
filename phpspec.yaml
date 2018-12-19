@@ -1,0 +1,8 @@
+suites:
+    main:
+        namespace: WieloCo\PhpSpecMatchers
+        psr4_prefix: WieloCo\PhpSpecMatchers
+        src_path: src
+        spec_prefix: spec
+
+formatter.name: pretty
