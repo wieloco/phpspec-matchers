@@ -1,11 +1,11 @@
 <?php
 
-namespace spec\WieloCo\PhpSpecMatchers\Matcher;
+namespace spec\WieloCo\Matcha\Matcher;
 
 use PhpSpec\Exception\Example\FailureException;
 use PhpSpec\Matcher\Matcher;
 use PhpSpec\ObjectBehavior;
-use WieloCo\PhpSpecMatchers\Matcher\BeAnUuidMatcher;
+use WieloCo\Matcha\Matcher\BeAnUuidMatcher;
 
 class BeAnUuidMatcherSpec extends ObjectBehavior
 {

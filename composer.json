@@ -1,5 +1,5 @@
 {
-    "name": "wieloco/phpspec-matchers",
+    "name": "wieloco/matcha",
     "description": "Custom matchers for PhpSpec",
     "keywords": [
         "phpspec",
@@ -25,7 +25,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "WieloCo\\PhpSpecMatchers\\": "src/"
+            "WieloCo\\Matcha\\": "src/"
         }
     },
     "minimum-stability": "stable",

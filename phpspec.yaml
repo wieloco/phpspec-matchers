@@ -1,7 +1,7 @@
 suites:
     main:
-        namespace: WieloCo\PhpSpecMatchers
-        psr4_prefix: WieloCo\PhpSpecMatchers
+        namespace: WieloCo\Matcha
+        psr4_prefix: WieloCo\Matcha
         src_path: src
         spec_prefix: spec
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\WieloCo\PhpSpecMatchers;
+namespace spec\WieloCo\Matcha;
 
 use PhpSpec\Extension;
 use PhpSpec\ObjectBehavior;

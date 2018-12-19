@@ -1,4 +1,4 @@
-# PhpSpec Matchers
+# :tea: Matcha - PhpSpec Matcher(s)
 --
 
 ## Installation
@@ -13,7 +13,7 @@ Add it to your PhpSpec configuration (`phpspec.yaml` file):
 
 ```yaml
 extensions:
-    WieloCo\PhpSpecMatchers\Extension: ~
+    WieloCo\Matcha\Extension: ~
 ```
 
 ## Usage

@@ -1,6 +1,6 @@
 <?php
 
-namespace WieloCo\PhpSpecMatchers\Matcher;
+namespace WieloCo\Matcha\Matcher;
 
 use PhpSpec\Exception\Example\FailureException;
 use PhpSpec\Matcher\Matcher;

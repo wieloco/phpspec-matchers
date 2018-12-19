@@ -1,9 +1,9 @@
 <?php
 
-namespace WieloCo\PhpSpecMatchers;
+namespace WieloCo\Matcha;
 
 use PhpSpec\ServiceContainer;
-use WieloCo\PhpSpecMatchers\Matcher\BeAnUuidMatcher;
+use WieloCo\Matcha\Matcher\BeAnUuidMatcher;
 
 class Extension implements \PhpSpec\Extension
 {
