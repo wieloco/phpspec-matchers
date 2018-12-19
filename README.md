@@ -6,7 +6,7 @@
 Install the package via composer:
 
 ```bash
-composer require karriere/phpspec-matchers
+composer require wieloco/ps-matcha
 ```
 
 Add it to your PhpSpec configuration (`phpspec.yaml` file):
