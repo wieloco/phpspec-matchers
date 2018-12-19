@@ -1,5 +1,5 @@
 {
-    "name": "wieloco/matcha",
+    "name": "wieloco/ps-matcha",
     "description": "Custom matchers for PhpSpec",
     "keywords": [
         "phpspec",
