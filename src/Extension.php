@@ -3,7 +3,7 @@
 namespace WieloCo\Matcha;
 
 use PhpSpec\ServiceContainer;
-use WieloCo\Matcha\Matcher\BeAnUuidMatcher;
+use WieloCo\Matcha\Matcher\BeUuidMatcher;
 
 class Extension implements \PhpSpec\Extension
 {
@@ -15,9 +15,9 @@ class Extension implements \PhpSpec\Extension
     public function load(ServiceContainer $container, array $params)
     {
         $container->define(
-            'wieloco.matchers.be_an_uuid',
+            'wieloco.matchers.be_uuid',
             function ($c) {
-                return new BeAnUuidMatcher();
+                return new BeUuidMatcher();
             },
             ['matchers']
         );

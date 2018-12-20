@@ -21,12 +21,12 @@ extensions:
 Use it in Specs like this
 
 ```php
-$this->uuid->shouldBeAnUuid();
+$this->uuid->shouldBeUuid();
 ```
 or
 
 ```php
-$this->uuid->shouldNotBeAnUuid();
+$this->uuid->shouldNotBeUuid();
 ```
 
 ## License

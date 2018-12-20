@@ -7,7 +7,7 @@ use PhpSpec\Matcher\Matcher;
 use PhpSpec\Wrapper\DelayedCall;
 use Ramsey\Uuid\Uuid;
 
-class BeAnUuidMatcher implements Matcher
+class BeUuidMatcher implements Matcher
 {
 
     /**
