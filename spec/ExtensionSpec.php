@@ -17,6 +17,6 @@ class ExtensionSpec extends ObjectBehavior
     public function it_should_define_the_be_an_uuid_matcher(ServiceContainer $container)
     {
         $this->load($container, []);
-        $container->define('wieloco.matchers.be_an_uuid', Argument::type('callable'), ['matchers'])->shouldHaveBeenCalled();
+        $container->define('wieloco.matchers.be_uuid', Argument::type('callable'), ['matchers'])->shouldHaveBeenCalled();
     }
 }

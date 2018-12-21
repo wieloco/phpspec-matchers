@@ -9,6 +9,7 @@ use Ramsey\Uuid\Uuid;
 
 class BeUuidMatcher implements Matcher
 {
+    public const NAME = 'beUuid';
 
     /**
      * Checks if matcher supports provided subject and matcher name.
@@ -21,7 +22,7 @@ class BeUuidMatcher implements Matcher
      */
     public function supports(string $name, $subject, array $arguments): bool
     {
-        return $name === 'beAnUuid';
+        return $name === self::NAME;
     }
 
     /**
