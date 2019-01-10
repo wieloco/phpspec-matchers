@@ -9,7 +9,7 @@
     ],
     "type": "phpspec-extension",
     "require": {
-        "phpspec/phpspec": "^5.1",
+        "phpspec/phpspec": "^5.0",
         "php": ">=7.1",
         "ramsey/uuid": "^3.7"
     },
