@@ -9,12 +9,12 @@
     ],
     "type": "phpspec-extension",
     "require": {
-        "phpspec/phpspec": "^5.1",
+        "phpspec/phpspec": "^6.1",
         "php": ">=7.1",
         "ramsey/uuid": "^3.7"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.13"
+        "friendsofphp/php-cs-fixer": "^2.16"
     },
     "license": "Apache-2.0",
     "authors": [
